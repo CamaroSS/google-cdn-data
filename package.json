@@ -1,6 +1,6 @@
 {
   "name": "google-cdn-data",
-  "version": "0.1.20",
+  "version": "0.1.23",
   "description": "Google CDN Data for google-cdn",
   "main": "index.js",
   "scripts": {
@@ -25,5 +25,8 @@
     "grunt-release": "~0.6.0",
     "chai": "~1.8.1",
     "mocha": "~1.17.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   }
 }
